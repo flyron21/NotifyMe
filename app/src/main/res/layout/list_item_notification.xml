@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- res/layout/list_item_notification.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/notificationAppName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:background="@color/material_dynamic_neutral60"
+        android:textSize="22sp"/>
+
+    <TextView
+        android:id="@+id/notificationText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/material_dynamic_neutral70"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/notificationTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/material_dynamic_neutral80"
+        android:textSize="14sp"/>
+</LinearLayout>
